@@ -1,0 +1,11 @@
+version: "3.8"
+services:
+  manager:
+    build: .
+    restart: always
+    env_file: .env
+    container_name: manager
+    deploy:
+      resources:
+        limits:
+          memory: 3g

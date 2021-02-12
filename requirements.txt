@@ -1,0 +1,10 @@
+cryptography==3.3.2
+python-telegram-bot
+psycopg2-binary
+pytz
+cachetools
+requests
+pytelegrambotapi
+schedule
+python-dotenv
+joblib
